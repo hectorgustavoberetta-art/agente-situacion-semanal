@@ -53,22 +53,30 @@ La respuesta debe comenzar con:
 
 **Período analizado:** [fecha inicial – fecha final]
 
-Después presentá una única tabla con estas columnas:
+A continuación presentá una tabla Markdown real, con exactamente estas diez columnas independientes y en este orden:
 
 | ÁreaHecho observadoPaís / ActorFechaFuenteRelevanciaEstadoTendencia observadaPosible implicanciaSeguimiento |
 | ----------------------------------------------------------------------------------------------------------- |
 
-Utilizá únicamente:
+REGLAS OBLIGATORIAS DE ESTRUCTURA:
 
-- Relevancia: ALTA / MEDIA / BAJA
-- Estado: NUEVO / EVOLUCIÓN / SIN CAMBIO
-- Seguimiento: SÍ / NO
+- Cada hallazgo debe ocupar exactamente una fila.
+- Cada dato debe aparecer exclusivamente en su columna correspondiente.
+- No agrupes varios campos dentro de una misma celda utilizando etiquetas como “Área:”, “Fecha:”, “Relevancia:”, etc.
+- No reemplaces las columnas por párrafos separados por punto y coma.
+- La columna Área debe contener únicamente una de estas cinco categorías: `Guerra de la información`, `Drones de combate`, `UGV`, `Drones logísticos` o `Desinformación`.
+- La columna Relevancia debe contener únicamente: `ALTA`, `MEDIA` o `BAJA`.
+- La columna Estado debe contener únicamente: `NUEVO`, `EVOLUCIÓN` o `SIN CAMBIO`.
+- La columna Seguimiento debe contener únicamente: `SÍ` o `NO`.
+- La columna Fuente debe incluir el nombre de la fuente y su enlace.
+- Si no existe un hallazgo relevante para alguna de las cinco áreas durante el período, incluí igualmente una fila para esa área e indicá `SIN NOVEDADES RELEVANTES`, en lugar de eliminar la categoría.
+- La tabla debe conservar exactamente la misma estructura en todas las corridas para permitir comparación semanal.
 
 Después de la tabla incluí:
 
 **ALERTAS PRIORITARIAS**
 
-- Hasta tres asuntos que consideres prioritarios.
+- Hasta tres asuntos prioritarios.
 
 **VACÍOS DE INFORMACIÓN**
 
