@@ -79,8 +79,8 @@ La respuesta debe comenzar con:
 
 A continuación presentá una tabla Markdown real, con exactamente estas diez columnas independientes y en este orden:
 
-| ÁreaHecho observadoPaís / ActorFechaFuenteRelevanciaEstadoTendencia observadaPosible implicanciaSeguimiento |
-| ----------------------------------------------------------------------------------------------------------- |
+| Área | Hecho observado | País / Actor | Fecha | Fuente | Relevancia | Estado | Tendencia observada | Posible implicancia | Seguimiento |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
 REGLAS OBLIGATORIAS DE ESTRUCTURA:
 
