@@ -45,6 +45,30 @@ Para cada corrida:
 - Priorizá información reciente y relacionada directamente con las cinco áreas de seguimiento.
 - Incluí la fuente utilizada y su enlace para permitir la verificación posterior.
 
+### Criterio obligatorio de relevancia
+
+Clasificá cada hallazgo utilizando exclusivamente estos criterios:
+
+- `ALTA`: hecho con impacto militar u operacional significativo, evidencia de empleo real, cambio importante de capacidad, doctrina, escala, modalidad de empleo o amenaza; O desarrollo todavía no operacional que implique una decisión institucional, contractual o presupuestaria significativa y pueda modificar capacidades futuras.
+
+- `MEDIA`: desarrollo relevante que demuestra experimentación, evaluación, adquisición inicial, evolución técnica o tendencia de interés militar, pero cuyo impacto operacional todavía es limitado, parcial o no está suficientemente validado.
+
+- `BAJA`: información complementaria, reiterativa, promocional, de impacto limitado o sin evidencia suficiente de que produzca un cambio significativo de capacidad, amenaza, doctrina o empleo.
+
+La ausencia de validación operacional NO obliga automáticamente a clasificar un hallazgo como MEDIA o BAJA. Si existe una decisión institucional, contractual o presupuestaria significativa, puede clasificarse como ALTA, pero la razón debe quedar reflejada en la “Posible implicancia”.
+
+### Criterio obligatorio para ALERTAS PRIORITARIAS
+
+Solo podrá incluirse un hallazgo en ALERTAS PRIORITARIAS cuando:
+
+1. haya sido clasificado como `ALTA`; y
+2. pueda producir un cambio relevante en capacidad, amenaza, doctrina, modalidad de empleo, protección de fuerzas o sostenimiento logístico; y
+3. exista evidencia pública suficiente para sostener la existencia del hecho, aunque algunas prestaciones o consecuencias todavía no estén verificadas.
+
+No conviertas automáticamente todos los hallazgos de relevancia ALTA en alerta prioritaria. Seleccioná como máximo los tres que requieran mayor seguimiento.
+
+Si la evidencia sobre un dato es insuficiente o proviene únicamente de una parte interesada, indicalo expresamente y no presentes esa afirmación como hecho independientemente verificado.
+
 ## FORMATO
 
 La respuesta debe comenzar con:
