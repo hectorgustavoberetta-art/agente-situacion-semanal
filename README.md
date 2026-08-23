@@ -189,6 +189,40 @@ Después de la segunda iteración, `salida_03.md` aplicó criterios explícitos 
 
 También logró seleccionar las alertas prioritarias utilizando los criterios establecidos y señalar expresamente cuándo una información no había podido ser validada de manera independiente.
 
+### Automatización y uso posterior
+
+Una vez finalizadas y validadas las tres corridas requeridas para la entrega, el agente fue configurado para su utilización como una tarea recurrente real.
+
+Se programó una ejecución automática todos los viernes a las 09:00 hs. En cada ejecución, el agente analiza información pública correspondiente a los últimos siete días sobre las cinco áreas definidas:
+
+- guerra de la información;
+- empleo de drones de combate;
+- empleo de UGV;
+- empleo de drones como medio de transporte logístico;
+- desinformación.
+
+El proceso semanal realiza la búsqueda y selección de información pública, contrasta las fuentes disponibles, identifica hechos relevantes, determina su nivel de relevancia, analiza tendencias y posibles implicancias y señala los asuntos que requieren seguimiento.
+
+Como resultado de cada ejecución se genera el Informe de Situación Semanal y Alerta Temprana con la estructura definida durante las iteraciones del proyecto.
+
+Además de presentar el informe en ChatGPT, la tarea fue configurada para generar una versión descargable en formato Microsoft Word (.docx), en hoja A4 horizontal, que incluye:
+
+- período analizado;
+- tabla estructurada de hallazgos;
+- fuentes y enlaces;
+- nivel de relevancia;
+- estado;
+- tendencias observadas;
+- posibles implicancias;
+- asuntos que requieren seguimiento;
+- Alertas Prioritarias;
+- Vacíos de Información.
+
+Los archivos Word se identifican mediante la fecha de ejecución, utilizando una denominación del tipo:
+
+`Informe_Situacion_YYYY-MM-DD.docx`
+
+Esta automatización fue incorporada después de completar las tres corridas y las dos iteraciones exigidas por la consigna. Por lo tanto, no modifica los resultados originales de la experimentación, sino que constituye una aplicación práctica posterior del agente desarrollado.
 
 ## Qué falta o qué falló
 
